@@ -42,7 +42,7 @@ import { JwtInterceptor } from './_interceptors/jwt.interceptor';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
